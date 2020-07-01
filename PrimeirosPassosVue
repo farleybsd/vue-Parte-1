@@ -12,3 +12,10 @@ Iniciando a projeto
 cd alurapic
 npm install
 npm run dev 
+
+
+Modulos do view
+
+Template html
+script os Dados/comportamento do component 
+style css
