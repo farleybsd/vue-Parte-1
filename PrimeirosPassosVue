@@ -1,0 +1,14 @@
+Instalando o vue
+
+npm install vue-cli@2.7.0 -g 
+
+Verificando a instalação 
+vue --version 
+
+Criando o projeto 
+vue init webpack-simple alurapic
+
+Iniciando a projeto
+cd alurapic
+npm install
+npm run dev 
