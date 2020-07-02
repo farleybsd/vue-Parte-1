@@ -39,3 +39,7 @@ Apos instalar precisa registrar a biblioteca
 
 Esse registro e feito no main.js
 add import VueResource from 'vue-resource' e depois da um use Vue.use(VueResource); deixando assim disponivel em todos componentes
+
+
+Você pode acessar a própria documentação do Vue para ver todos os ganchos suportados no ciclo de vida de um componente neste endereço 
+https://vuejs.org/v2/api/#Options-Lifecycle-Hooks.
