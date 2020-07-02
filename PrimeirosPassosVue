@@ -19,3 +19,15 @@ Modulos do view
 Template html
 script os Dados/comportamento do component 
 style css
+
+
+
+API 
+levante o servidor
+npm start
+
+Se tudo correr bem, será exibida a seguinte mensagem no console:
+API escutando na porta: 3000
+
+para verificar se a API esta retornando dados acesse o endereço
+http://localhost:3000/v1/fotos
