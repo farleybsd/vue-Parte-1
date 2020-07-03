@@ -1,7 +1,7 @@
 <template>
   <div class="painel">
     <h2 class="painel-titulo">{{titulo}}</h2>
-    <div class="painel-conteudo"></div>
+    <slot class="painel-conteudo"></slot>
   </div>
 </template>
 
@@ -35,3 +35,11 @@ export default {
   text-transform: uppercase;
 }
 </style>
+
+/*
+Slot
+Quando o Vue renderiza nosso componente Painel em App, ele não entende que deve preservar tudo aquilo que esta entre as tags <meu-painel>.
+ O Vue manipula aquela parte do DOM trocando-a pela renderização do nosso componente Painel. Para que isso seja possível, precisamos indicar no template de Painel a
+ área que queremos considerar como um slot, ou seja, aquela área que recebera tudo aquilo que tiver dentro da tag <meu-painel>. Para isso, vamos alterar
+  o template alurapic/src/components/shared/painel/Painel.vue e trocar a div conteúdo pelo componente slot. Nosso componente final fica assim:
+*/
