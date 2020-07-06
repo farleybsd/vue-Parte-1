@@ -12,6 +12,7 @@
       <li class="lista-fotos-item" v-for="foto of fotosComFiltro">
         <meu-painel :titulo="foto.titulo">
           <imagem-responsiva :url="foto.url" :titulo="foto.titulo" />
+          <meu-botao tipo="button" rotulo="Remover" />
         </meu-painel>
       </li>
     </ul>
@@ -21,10 +22,12 @@
 <script>
 import Painel from "../shared/painel/Paniel.vue";
 import imagemResponsiva from "../shared/imagem-responsiva/imagemResponsiva.vue";
+import Botao from "../shared/botao/botao.vue";
 export default {
   components: {
     "meu-painel": Painel,
-    "imagem-responsiva": imagemResponsiva
+    "imagem-responsiva": imagemResponsiva,
+    "meu-botao": Botao
   },
   data() {
     return {
