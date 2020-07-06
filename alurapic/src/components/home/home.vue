@@ -19,8 +19,8 @@
 </template>
 
 <script>
-import Painel from "./shared/painel/Paniel.vue";
-import imagemResponsiva from "./shared/imagem-responsiva/imagemResponsiva.vue";
+import Painel from "../shared/painel/Paniel.vue";
+import imagemResponsiva from "../shared/imagem-responsiva/imagemResponsiva.vue";
 export default {
   components: {
     "meu-painel": Painel,
